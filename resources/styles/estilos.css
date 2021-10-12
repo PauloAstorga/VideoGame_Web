@@ -1,0 +1,93 @@
+body {
+    margin:0;
+}
+
+header.body-header{
+    height:18vh;
+    top:0;
+    position:sticky;
+    background-color:azure;
+    z-index:1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+img#header-logo-image {
+    height: 10vh;
+}
+
+li#header-menu-element {
+    list-style: none;
+}
+
+ul#header-menu-list {
+    display: flex;
+}
+
+h4#header-logo-text {
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+ul#header-submenu-list {
+    list-style: none;
+}
+
+.login-details-content {
+    display: inline-grid;
+}
+
+main {
+    background-color: yellowgreen;
+}
+
+img#social-media-logo {
+    height: 30px;
+}
+
+li#social-media-element {
+    list-style: none;
+}
+
+ul#social-media-list {
+}
+
+li#rels-element {
+    list-style: none;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.ad-zone-1-container {
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-content-container {
+    padding: 20px;
+}
+
+.ad-zone-2-container {
+    padding: 20px;
+}
+
+.aside-container {
+    padding: 20px;
+}
