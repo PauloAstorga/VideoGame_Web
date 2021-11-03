@@ -147,6 +147,7 @@ article.first-container-minibox-courselike {
 article.first-container-minibox-freelike {
     width: 50%;
     display: grid;
+    margin: 10px;
     justify-items: center;
     background: linear-gradient(
 45deg
@@ -206,4 +207,18 @@ img#login-image {
 .login-image-container {
     display: flex;
     justify-content: center;
+}
+
+img#minibox-freelike-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+img#minibox-courselike-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
 }
